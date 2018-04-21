@@ -14,5 +14,11 @@ out
 ./db
 vendor
 .DS_Store
-baseball_databank_*.sqlite3
 dist/
+*.goreleaser.yml
+
+baseball_databank_*.sqlite3
+retrosheet.sqlite3
+cmd/retrosched-dbloader/retrosched-dbloader
+retrosheet_schedules.sqlite3
+release/
